@@ -1,0 +1,37 @@
+@import '../../variables.scss';
+
+nav {
+  box-sizing: border-box;
+  z-index: 21;
+  width: 100%;
+  display: block;
+  flex: 1;
+  background-color: rgba(255,255,255,0.3) !important;
+
+
+  .nav-wrapper {
+    padding: 0 10vw;
+  }
+
+  .right {
+    text-align: right;
+    a {
+      color: #5F5D60;
+      font-weight: 400;
+      font-family: $primary-header;
+      font-size: 2vmin;
+      &:hover {
+        color: $secondary;
+        text-decoration: none
+      }
+      &.active {
+        i {
+          color: $theme;
+        }
+      }
+      i {
+        padding: 1% 3%;
+      }
+    }
+  }
+}

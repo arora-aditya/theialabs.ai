@@ -21,3 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# CSS cause SCSS
+*.css
+
+# Design Files
+wireframes

@@ -1,0 +1,23 @@
+.circle {
+  text-align: center;
+  img {
+    border-radius: 100%;
+    background-color: transparent;
+    max-width: 80%;
+  }
+
+  .caption {
+      .caption-heading {
+        font-weight: normal;
+        font-size: 1.5vh;
+        margin-bottom: 1%;
+        // text-transform: capitalize;
+      }
+      .caption-text {
+        font-weight: lighter;
+        font-size: 1vh;
+        max-width: 50%;
+        margin: auto;
+      }
+  }
+}

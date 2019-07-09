@@ -1,0 +1,16 @@
+$theme: #E7549E;
+$secondary: #66C7C3;
+$background: #fafafa;
+
+$primary-header: "ff-real-headline-pro-2", sans-serif;
+$secondary-header: "ff-real-text-pro", sans-serif;
+
+$font: "ff-real-text-pro", sans-serif;
+$font-secondary: "ff-real-text-pro";
+
+$page-width: 900px;
+
+@mixin tab-title-padding {
+  padding-left: 3.5rem;
+  padding-top: 3.5rem;
+};

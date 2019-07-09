@@ -1,0 +1,22 @@
+.box {
+  img {
+    background-color: transparent;
+    max-width: 100%;
+  }
+  .caption {
+    .caption-heading {
+      color: #494F55;
+      font-weight: normal;
+      font-size: 1.5vh;
+      margin-bottom: 1%;
+      text-transform: capitalize;
+    }
+    .caption-text {
+      color: #252525;
+      font-weight: lighter;
+      font-size: 1vh;
+      max-width: 80%;
+      margin: auto;
+    }
+  }
+}

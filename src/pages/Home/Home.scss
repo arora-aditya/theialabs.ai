@@ -1,0 +1,47 @@
+$left-margin: 10%;
+
+.home{
+  min-height: 1000px;
+  .heading-text {
+    font-size: 5vmin;
+    font-weight: 400;
+    text-align: left;
+    color: #252525;
+  }
+  .top-buttons {
+    margin-left: $left-margin;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+  }
+  .how-it-works {
+    text-align: center;
+    .how-it-works-r1 {
+      // display: flex;
+      // justify-content: space-between;
+    }
+  }
+  .subtext {
+    font-size: 1.5vmin;
+    padding: 0 30%;
+    text-align: center;
+  }
+
+  .text {
+    font-size: 1.5vmin;
+    padding: 0 20%;
+    text-align: left;
+  }
+
+  .partners {
+    .row.valign-wrapper{
+      align-items: center;
+      .img-container {
+        padding: 5%;
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}

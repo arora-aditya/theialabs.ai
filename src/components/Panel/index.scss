@@ -1,0 +1,20 @@
+.panel {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 5% 10%;
+  .panel-heading {
+    color: white;
+    font-size: 3.6vmin;
+    font-weight: 500;
+    text-align: left;
+  }
+}
+
+.full-width {
+  width: 90vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -45vw;
+  margin-right: -50vw;
+}

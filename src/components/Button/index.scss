@@ -1,0 +1,40 @@
+.button {
+  font-size: 16px;
+  color: white;
+  text-transform: capitalize !important;
+  border-radius: 5%;
+  margin-right: 2%;
+  &.blue {
+    background: linear-gradient(#61B7E9, #3280CE) !important;
+    -webkit-transition: background-color 0.5s, box-shadow 0.25s;
+      transition: background-color 0.5s, box-shadow 0.25s;
+
+    &:hover {
+      background-color: #639EF1 !important;
+      box-shadow: 0px 1px 6px #8EA0B9;
+      -webkit-transition: background-color 0.5s, box-shadow 0.25s;
+        transition: background-color 0.5s, box-shadow 0.25s;
+    }
+  }
+  &.white {
+    color: #9133FF;
+    &:hover {
+      background-color: #FFFFFA !important;
+      box-shadow: 0px 1px 6px #8EA0B9;
+      -webkit-transition: background-color 0.5s, box-shadow 0.25s;
+        transition: background-color 0.5s, box-shadow 0.25s;
+    }
+  }
+  &.pink {
+    background: linear-gradient(#E062FF, #9133FF) !important;
+    -webkit-transition: background-color 0.5s, box-shadow 0.25s;
+      transition: background-color 0.5s, box-shadow 0.25s;
+
+    &:hover {
+      background-color: #639EF1 !important;
+      box-shadow: 0px 1px 6px #8EA0B9;
+      -webkit-transition: background-color 0.5s, box-shadow 0.25s;
+        transition: background-color 0.5s, box-shadow 0.25s;
+    }
+  }
+}
