@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/theialabs.ai/static/css/main.0c4279be.chunk.css",
+    "main.js": "/theialabs.ai/static/js/main.b8a2e0ed.chunk.js",
+    "main.js.map": "/theialabs.ai/static/js/main.b8a2e0ed.chunk.js.map",
+    "runtime~main.js": "/theialabs.ai/static/js/runtime~main.94622495.js",
+    "runtime~main.js.map": "/theialabs.ai/static/js/runtime~main.94622495.js.map",
+    "static/js/2.05328b7d.chunk.js": "/theialabs.ai/static/js/2.05328b7d.chunk.js",
+    "static/js/2.05328b7d.chunk.js.map": "/theialabs.ai/static/js/2.05328b7d.chunk.js.map",
+    "index.html": "/theialabs.ai/index.html",
+    "precache-manifest.c6e5f54ef155c7bc256245575ca79790.js": "/theialabs.ai/precache-manifest.c6e5f54ef155c7bc256245575ca79790.js",
+    "service-worker.js": "/theialabs.ai/service-worker.js",
+    "static/css/main.0c4279be.chunk.css.map": "/theialabs.ai/static/css/main.0c4279be.chunk.css.map",
+    "static/media/Communitech.png": "/theialabs.ai/static/media/Communitech.faefca4d.png",
+    "static/media/Laurier.png": "/theialabs.ai/static/media/Laurier.7b931550.png",
+    "static/media/RBC.png": "/theialabs.ai/static/media/RBC.273d1559.png"
+  }
+}
