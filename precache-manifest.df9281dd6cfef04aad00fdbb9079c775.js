@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fcea363a4f28c583330543c5aecf6700",
+    "revision": "442a1b9afa6a94762a751fd42ca51024",
     "url": "/theialabs.ai/index.html"
   },
   {
-    "revision": "8cbcb37c523c62a14797",
-    "url": "/theialabs.ai/static/css/main.0c4279be.chunk.css"
+    "revision": "13e95cc9f42144df980f",
+    "url": "/theialabs.ai/static/css/main.2dbc2d53.chunk.css"
   },
   {
-    "revision": "09435990a16c57b32b61",
-    "url": "/theialabs.ai/static/js/2.05328b7d.chunk.js"
+    "revision": "a7e5b67dd4fe503bbed8",
+    "url": "/theialabs.ai/static/js/2.8767e16a.chunk.js"
   },
   {
-    "revision": "8cbcb37c523c62a14797",
-    "url": "/theialabs.ai/static/js/main.b8a2e0ed.chunk.js"
+    "revision": "13e95cc9f42144df980f",
+    "url": "/theialabs.ai/static/js/main.55b2605c.chunk.js"
   },
   {
     "revision": "f4f3018f6319c493f799",
@@ -30,5 +30,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "273d155913b4540466cad6d2f8ba825c",
     "url": "/theialabs.ai/static/media/RBC.273d1559.png"
+  },
+  {
+    "revision": "c58ad183c2ba0cebda2cad41e8817fb0",
+    "url": "/theialabs.ai/static/media/TheiaLogo(x8).c58ad183.png"
   }
 ]);

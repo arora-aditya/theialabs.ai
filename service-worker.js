@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/theialabs.ai/precache-manifest.c6e5f54ef155c7bc256245575ca79790.js"
+  "/theialabs.ai/precache-manifest.df9281dd6cfef04aad00fdbb9079c775.js"
 );
 
 self.addEventListener('message', (event) => {
