@@ -3,7 +3,7 @@ import './index.scss';
 
 import { Redirect, NavLink } from 'react-router-dom';
 
-const logo = require('../../assets/TheiaLogo.png');
+const logo = require('../../assets/TheiaLogo(x8).png');
 
 export default class Navigation extends React.Component {
   constructor(props) {
@@ -19,7 +19,9 @@ export default class Navigation extends React.Component {
         <nav className="z-depth-0">
           <div className="nav-wrapper">
             <NavLink to="/" className="left">
-              <div className="brand-logo left"><img src={logo} alt="Theia Logo"/></div>
+              <div className="brand-logo left">
+                <img src={logo} alt="Theia Logo"/>
+              </div>
             </NavLink>
             <ul className="right">
               <li>

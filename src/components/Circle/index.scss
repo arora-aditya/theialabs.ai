@@ -1,22 +1,25 @@
 .circle {
   text-align: center;
-  img {
-    border-radius: 100%;
-    background-color: transparent;
-    max-width: 80%;
+  font-family: ff-real-headline-pro-2, sans-serif;
+  figure {
+    margin: 1vh 0;
+    img {
+      border-radius: 100%;
+      background-color: transparent;
+      max-width: 80%;
+    }
   }
 
   .caption {
       .caption-heading {
-        font-weight: normal;
-        font-size: 1.5vh;
+        font-weight: 400;
+        font-size: 2vh;
         margin-bottom: 1%;
-        // text-transform: capitalize;
       }
       .caption-text {
-        font-weight: lighter;
-        font-size: 1vh;
-        max-width: 50%;
+        font-weight: 300;
+        font-size: 1.5vh;
+        max-width: 90%;
         margin: auto;
       }
   }

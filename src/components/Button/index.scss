@@ -1,9 +1,24 @@
 .button {
-  font-size: 16px;
+  font-size: 3vmin;
+  @media screen and (min-width: 992px) {
+      font-size: 1.5vmax;
+  }
   color: white;
   text-transform: capitalize !important;
   border-radius: 5%;
   margin-right: 2%;
+  font-family: ff-real-headline-pro-2, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  a {
+    p {
+      color: white;
+    }
+  }
+  p {
+    color: white;
+  }
+
   &.blue {
     background: linear-gradient(#61B7E9, #3280CE) !important;
     -webkit-transition: background-color 0.5s, box-shadow 0.25s;
@@ -17,7 +32,14 @@
     }
   }
   &.white {
-    color: #9133FF;
+    a {
+      p {
+        color: #9133FF;
+      }
+    }
+    p {
+      color: #9133FF;
+    }
     &:hover {
       background-color: #FFFFFA !important;
       box-shadow: 0px 1px 6px #8EA0B9;
@@ -26,6 +48,9 @@
     }
   }
   &.pink {
+    p {
+      color: white;
+    }
     background: linear-gradient(#E062FF, #9133FF) !important;
     -webkit-transition: background-color 0.5s, box-shadow 0.25s;
       transition: background-color 0.5s, box-shadow 0.25s;

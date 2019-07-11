@@ -11,7 +11,13 @@ nav {
 
   .nav-wrapper {
     padding: 0 10vw;
+    .brand-logo {
+      img {
+        max-height: 54px;
+      }
+    }
   }
+
 
   .right {
     text-align: right;
@@ -19,9 +25,8 @@ nav {
       color: #5F5D60;
       font-weight: 400;
       font-family: $primary-header;
-      font-size: 2vmin;
+      font-size: 2vh;
       &:hover {
-        color: $secondary;
         text-decoration: none
       }
       &.active {

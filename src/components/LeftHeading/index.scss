@@ -1,0 +1,21 @@
+.lheading {
+  .heading {
+    text-align: left;
+    font-family: ff-real-headline-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3vh;
+  }
+  .subheading {
+    text-align: left;
+    font-family: ff-real-headline-pro-2, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2vh;
+    margin: 2vh auto 3vh auto;
+  }
+  @media screen and (min-width: 992px) {
+      max-width: 60vw;
+  }
+  margin: auto;
+}
