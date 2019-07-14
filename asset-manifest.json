@@ -1,19 +1,26 @@
 {
   "files": {
-    "main.css": "/theialabs.ai/static/css/main.2dbc2d53.chunk.css",
-    "main.js": "/theialabs.ai/static/js/main.55b2605c.chunk.js",
-    "main.js.map": "/theialabs.ai/static/js/main.55b2605c.chunk.js.map",
+    "main.css": "/theialabs.ai/static/css/main.c826ea5c.chunk.css",
+    "main.js": "/theialabs.ai/static/js/main.77f4ec1d.chunk.js",
+    "main.js.map": "/theialabs.ai/static/js/main.77f4ec1d.chunk.js.map",
     "runtime~main.js": "/theialabs.ai/static/js/runtime~main.94622495.js",
     "runtime~main.js.map": "/theialabs.ai/static/js/runtime~main.94622495.js.map",
-    "static/js/2.8767e16a.chunk.js": "/theialabs.ai/static/js/2.8767e16a.chunk.js",
-    "static/js/2.8767e16a.chunk.js.map": "/theialabs.ai/static/js/2.8767e16a.chunk.js.map",
+    "static/js/2.cfe03d2c.chunk.js": "/theialabs.ai/static/js/2.cfe03d2c.chunk.js",
+    "static/js/2.cfe03d2c.chunk.js.map": "/theialabs.ai/static/js/2.cfe03d2c.chunk.js.map",
     "index.html": "/theialabs.ai/index.html",
-    "precache-manifest.df9281dd6cfef04aad00fdbb9079c775.js": "/theialabs.ai/precache-manifest.df9281dd6cfef04aad00fdbb9079c775.js",
+    "precache-manifest.07cf879d54139175a027d154a55ca70c.js": "/theialabs.ai/precache-manifest.07cf879d54139175a027d154a55ca70c.js",
     "service-worker.js": "/theialabs.ai/service-worker.js",
-    "static/css/main.2dbc2d53.chunk.css.map": "/theialabs.ai/static/css/main.2dbc2d53.chunk.css.map",
+    "static/css/main.c826ea5c.chunk.css.map": "/theialabs.ai/static/css/main.c826ea5c.chunk.css.map",
     "static/media/Communitech.png": "/theialabs.ai/static/media/Communitech.faefca4d.png",
     "static/media/Laurier.png": "/theialabs.ai/static/media/Laurier.7b931550.png",
     "static/media/RBC.png": "/theialabs.ai/static/media/RBC.273d1559.png",
-    "static/media/TheiaLogo(x8).png": "/theialabs.ai/static/media/TheiaLogo(x8).c58ad183.png"
+    "static/media/TheiaLogo(x8).png": "/theialabs.ai/static/media/TheiaLogo(x8).c58ad183.png",
+    "static/media/demographic.svg": "/theialabs.ai/static/media/demographic.fddeebd2.svg",
+    "static/media/eye.svg": "/theialabs.ai/static/media/eye.b2ce347c.svg",
+    "static/media/flow.svg": "/theialabs.ai/static/media/flow.9977753f.svg",
+    "static/media/griffin.jpg": "/theialabs.ai/static/media/griffin.e8ac9281.jpg",
+    "static/media/heatmap.svg": "/theialabs.ai/static/media/heatmap.c9e0578a.svg",
+    "static/media/ruslan.png": "/theialabs.ai/static/media/ruslan.274ddf31.png",
+    "static/media/steps.svg": "/theialabs.ai/static/media/steps.1e61002e.svg"
   }
 }
