@@ -1,3 +1,5 @@
+/* global handleFormSubmit
+*/
 import React, { Component } from 'react';
 
 import Button from '../../components/Button';
@@ -10,7 +12,12 @@ import LeftHeading from '../../components/LeftHeading';
 
 import './Home.scss';
 
-const circle = require('../../assets/Placeholder(1).png');
+const demographic = require('../../assets/CircleSVGs/demographic.svg');
+const eye = require('../../assets/CircleSVGs/eye.svg');
+const flow = require('../../assets/CircleSVGs/flow.svg');
+const heatmap = require('../../assets/CircleSVGs/heatmap.svg');
+const steps = require('../../assets/CircleSVGs/steps.svg');
+
 const box = require('../../assets/Placeholder(2).jpg');
 
 // const pop = require('../../assets/Card(TBC).png')
@@ -20,6 +27,15 @@ const rbc = require('../../assets/RBC.png');
 
 
 export default class Home extends Component {
+  constructor(props){
+    super(props);
+    // This binding is necessary to make `this` work in the callback
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick(e) {
+    handleFormSubmit(e);
+  }
 
   render() {
     return (
@@ -40,34 +56,34 @@ export default class Home extends Component {
           </p>
           <div className='features-r1 row'>
             <Circle
-              img={circle}
-              className='col s6 m6 l4 offset-l2'
+              img={steps}
+              className='col s6 m4 l4 offset-l2 offset-m2'
               heading='Foot Traffic Counter'
               text='Count the number of visitors in your store to understand real-time conversion rates.'
             />
             <Circle
-              img={circle}
-              className='col s6 m6 l4'
+              img={flow}
+              className='col s6 m4 l4'
               heading='Traffic Flow Breakdown'
               text='Understand how customers travel through your store for accurate merchandising.'
             />
           </div>
           <div className='features-r2 row'>
             <Circle
-              img={circle}
-              className='col s6 s12 m6 l4'
+              img={heatmap}
+              className='col s6 m4 l4 offset-s3'
               heading='Customer Dwell Times'
               text='Find out where your visitors spend most of their time to be there for all the hard decisions.'
             />
             <Circle
-              img={circle}
-              className='col s6 m6 l4'
+              img={eye}
+              className='col s6 m4 l4'
               heading='Customer Gaze Expectation'
               text='Discover where customers look in your store to accurately price retail shelf space or conduct A/B testing.'
             />
             <Circle
-              img={circle}
-              className='col s6 m6 l4 offset-m3'
+              img={demographic}
+              className='col s6 m4 l4'
               heading='Age and Gender Estimation'
               text='Break down metrics based on customers’ age or gender for extra precise insights.'
             />
@@ -103,6 +119,7 @@ export default class Home extends Component {
           img={'https://i.imgur.com/TQgky1n.png'}
           text='Discover how you can improve you can improve your store today with a free 30 day trial, no additional hardware required.'
           button_text='Request Demo'
+          handleClick={this.handleClick}
         />
         <div className='partners valign-wrapper'>
           <div className='row'>
@@ -116,25 +133,6 @@ export default class Home extends Component {
               <img src={rbc} alt='RBC logo'/>
             </div>
           </div>
-        </div>
-
-        <div className='info'>
-          <CentralHeading
-            heading='Industry Solution'
-            subheading="Request a demo on our website. We will reach out to you with detailed instructions or answer any questions you might have."
-          />
-          <LeftHeading
-            heading='Grocers'
-            subheading="Grocery store managers spend hours every day watching how people browse through their store isles to find ways how they can improve product placement and increase sales. Making store managers watch the isles is inefficient and prone to biases. Equip your stores with the right tools to help your store managers make the right decisions and increase sales."
-          />
-          <LeftHeading
-            heading='Fashion retail'
-            subheading="The old school door-mounted traffic counters are inaccurate and provide very primitive metrics. With Theia Labs you can track advanced metrics that make sense for your store. Instead of tracking conversion rates blind to demographic factors, you can set specific targets per age groups and gender. In addition, perform product placement A/B testing to maximize sales."
-          />
-          <LeftHeading
-            heading='Malls'
-            subheading="Use gaze estimation to find out what stores patrons look into. Combine gaze insights with actual foot traffic and customer paths to find organic sales drivers and inform your leasing decisions."
-          />
         </div>
 
       </div>

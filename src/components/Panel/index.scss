@@ -1,22 +1,41 @@
 .panel {
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 1vmin;
   padding: 5% 10%;
+  -webkit-box-shadow: 0px 16px 16px 4px rgba(51,51,51,0.2);
+          box-shadow: 0px 16px 16px 4px rgba(51,51,51,0.2);
   display: block;
+  text-align: left;
+
+  #honeypot {
+    display: none;
+  }
+
   .panel-heading {
     font-family: ff-real-text-pro, sans-serif;
     font-weight: 400;
     color: white;
     font-size: 3vmax;
-    text-align: left;
+    @media screen and (min-width: 992px) {
+        font-size: 2vmax;
+        max-width: 50vw;
+    }
   }
   .row {
+    font-size: 2vmax;
+    @media screen and (min-width: 992px) {
+        font-size: 1.2vmax;
+    }
     input {
       margin-right: 2vw;
       padding: 1%;
-      padding-right: 10vw;
       border-radius: 0.2vw;
       margin-bottom: 3%;
+    }
+    #submitted-text {
+      color: orange;
+      padding: 1%;
     }
   }
 }

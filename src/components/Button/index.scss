@@ -1,7 +1,10 @@
 .button {
   font-size: 3vmin;
+  @media screen and (min-width: 600px) {
+      font-size: 1.5vmin;
+  }
   @media screen and (min-width: 992px) {
-      font-size: 1.5vmax;
+      font-size: 1vmax;
   }
   color: white;
   text-transform: capitalize !important;

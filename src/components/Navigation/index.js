@@ -35,9 +35,14 @@ export default class Navigation extends React.Component {
                 </NavLink>
               </li>
               <li>
-                <a rel="noopener noreferrer" href="https://www.linkedin.com/company/theialabs/" target="_blank">
-                  Linkedin
-                </a>
+                <NavLink to="/solutions" exact={true}>
+                  Solutions
+                </NavLink>
+              </li>
+              <li>
+                <NavLink to="/aboutus" exact={true}>
+                  About Us
+                </NavLink>
               </li>
             </ul>
           </div>

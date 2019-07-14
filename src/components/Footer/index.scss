@@ -27,14 +27,16 @@
       font-size: 2vh;
     }
     .footer-links {
-      padding-left: 10%;
+      right: 1%;
+      text-align: right;
+      // padding-left: 5%;
       .links {
         li {
           a {
             color: black;
             font-size: 2vh;
           }
-          margin-bottom: 20%;
+          // margin-bottom: 20%;
         }
       }
     }

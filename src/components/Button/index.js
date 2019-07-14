@@ -9,13 +9,17 @@ export default class Button extends React.Component {
     if(this.props.color){
       color = this.props.color
     }
-    let className = ''
+    let className = '';
+    let onClick = function(){console.log('test');};
     if(this.props.className){
       className = this.props.className;
     }
+    if(this.props.onClick){
+      onClick = this.props.onClick;
+    }
     if(this.props.link){
       return (
-          <button className={`button ${color} ${className} btn`} type="button">
+          <button className={`button ${color} ${className} btn`} type="button" onClick={onClick}>
             <Link to={this.props.link}>
               <p>
                 {this.props.text}
@@ -25,7 +29,7 @@ export default class Button extends React.Component {
       )
     }
     return (
-      <button className={`button ${color} ${className} btn`} type="button">
+      <button className={`button ${color} ${className} btn`} type="button" onClick={onClick}>
         <p>
           {this.props.text}
         </p>
