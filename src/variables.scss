@@ -1,12 +1,19 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
 $theme: #E7549E;
 $secondary: #66C7C3;
 $background: #fafafa;
 
-$primary-header: ff-real-headline-pro-2, sans-serif;
-$secondary-header: ff-real-text-pro, sans-serif;
+// $primary-header: ff-real-headline-pro-2, sans-serif;
+// $secondary-header: ff-real-text-pro, sans-serif;
 
-$font: ff-real-text-pro, sans-serif;
-$font-secondary: ff-real-text-pro;
+$primary-header: 'Roboto', sans-serif;
+$secondary-header: 'Roboto', sans-serif;
+
+// $font: ff-real-text-pro, sans-serif;
+// $font-secondary: ff-real-text-pro;
+$font: 'Roboto', sans-serif;
+$font-secondary: 'Roboto', sans-serif;
 
 $page-width: 900px;
 
