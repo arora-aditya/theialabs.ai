@@ -3,7 +3,7 @@ import './index.scss';
 
 import { Link } from 'react-router-dom';
 
-const logo = require('../../assets/TheiaLogo(x8).png');
+const logo = require('../../assets/TheiaLogo.png');
 
 export default class Footer extends React.Component {
   render() {
@@ -11,14 +11,10 @@ export default class Footer extends React.Component {
       <footer className='footer'>
         <div className='footer-container'>
           <div className="row">
-            <div className="footer-logo col l2 s12">
+            <div className="footer-logo col l4 s12">
               <img src={logo} alt="Theia Logo"/>
             </div>
-            <div className="footer-text col l8 s6">
-              <p>
-                We’re a software technology company based in Kitchener, founded by a team of entrepreneurs and engineers from Wilfrid Laurier University and University of Waterloo.
-                Our mission is to equip retail businesses with the right tools to understand their customer interactions and storefront performance.
-              </p>
+            <div className="footer-text col l6 s6">
             </div>
             <div className="footer-links col l2 s6">
               <ul className='links'>

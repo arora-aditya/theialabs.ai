@@ -27,7 +27,7 @@ export default class Panel extends React.Component {
           <div className='row'>
             <form id='gform' className='gform' method='POST' data-email="jointhesage@gmail.com" action={googleActionScript}>
               <input name='email' className='col s12 m6 l3 browser-default validate' id="email_inline" type="email" size="256" placeholder="Your Email"/>
-              <input id="honeypot" type="text" name="honeypot" value="" />
+              <input id="honeypot" type="text" name="honeypot" defaultValue="" />
               <Button className='col' text={this.props.button_text} color='pink' onClick={this.handleClickPanel}/>
             </form>
           </div>
