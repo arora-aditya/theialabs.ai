@@ -4,10 +4,6 @@ let ImageMapper = require('react-image-mapper');
 
 const hiw = require('../../assets/how_it_works_diagram.png');
 
-const centerMap = {
-  margin: 0,
-}
-
 export default class ImageMap extends React.Component {
   constructor(props){
     super(props);
@@ -58,7 +54,7 @@ export default class ImageMap extends React.Component {
     }
     return (
       <div className="image-map">
-        <div className="container" style={centerMap}>
+        <div className="container">
             <ImageMapper src={hiw} map={MAP} width={1000}
             	onLoad={() => this.load()}
             	onClick={area => this.clicked(area)}
