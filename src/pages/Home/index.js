@@ -47,18 +47,18 @@ export default class Home extends Component {
     return (
       <div className='home'>
         <div className='container'>
-          <p className="flow-text heading-text">
+          <h1 className="flow-text heading-text">
             Gain unparalleled insights into your
             store without the need for
             any additional hardware
-          </p>
+          </h1>
           <div className='top-buttons'>
               <Button link='/contact' text='Contact Us' color='blue'/>
               <Button link='/demo' text='See the Demo' color='white'/>
           </div>
           <div className='features'>
             <p className="large-heading-text">
-              Theia Analytics' Products
+              Our Products
             </p>
             <div className='features-r1 row'>
               <div className='col s12 m3 l3'>
@@ -143,7 +143,7 @@ export default class Home extends Component {
           </div>
           <Panel
             img={'https://i.imgur.com/TQgky1n.png'}
-            text='Discover how you can improve you can improve your store today with a free 30 day trial, no additional hardware required.'
+            text='Discover how you can improve your store today with a free 30 day trial, no additional hardware required.'
             button_text='Request Demo'
             handleClick={this.handleClick}
           />
@@ -193,7 +193,6 @@ export default class Home extends Component {
             </div>
           </div>
           <ImageMap />
-
         </div>
       </div>
     )
