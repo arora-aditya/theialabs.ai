@@ -4,7 +4,7 @@ import './index.scss';
 export default class CentralHeading extends React.Component {
   render() {
     return (
-      <div className={`cheading ${this.props.className?this.props.className:''}`}>
+      <div className={`cheading ${this.props.className?this.props.className:''}`} style={this.props.style}>
         <p className='heading'>{this.props.heading}</p>
         <p className='subheading'>{this.props.subheading}</p>
       </div>

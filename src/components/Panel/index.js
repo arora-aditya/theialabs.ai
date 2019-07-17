@@ -21,7 +21,7 @@ export default class Panel extends React.Component {
     if(!this.state.submitted){
       return (
         <div className={`panel full-width ${this.props.className?this.props.className:''}`} style={{'backgroundImage':`url('${this.props.img}')`}}>
-          <p className='panel-heading' style={{'width': 'min(40vw, 400px)'}}>
+          <p id='panel-heading-text' className='panel-heading' style={{'width': 'min(40vw, 400px)'}}>
           {this.props.text}
           </p>
           <div className='row'>
@@ -36,7 +36,7 @@ export default class Panel extends React.Component {
     } else {
       return (
           <div className={`panel full-width ${this.props.className?this.props.className:''}`} style={{'backgroundImage':`url('${this.props.img}')`}}>
-            <p className='panel-heading' style={{'width': 'min(40vw, 400px)'}}>
+            <p  id='panel-heading-text' className='panel-heading' style={{'width': 'min(40vw, 400px)'}}>
             {this.props.text}
             </p>
             <div className='row'>

@@ -33,6 +33,13 @@ $left-margin: 10%;
   }
   .features {
     margin-bottom: 10vh;
+    text-align: center;
+    .features-r1 {
+      background-color: rgba(220,220,220, 0.2);
+    }
+    .features-r2 {
+      background-color: rgba(220,220,220, 0.2);
+    }
   }
   .how-it-works {
     text-align: center;

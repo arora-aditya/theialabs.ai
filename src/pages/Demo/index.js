@@ -24,7 +24,7 @@ export default class Demo extends Component {
             Take a look!
           </p>
           <div className='youtube'>
-            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe title='youtube video' src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <Panel
             img={'https://i.imgur.com/TQgky1n.png'}

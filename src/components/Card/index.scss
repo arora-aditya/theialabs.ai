@@ -1,0 +1,15 @@
+.card-comp {
+  .card{
+    min-height: 300px;
+    max-height: 360px;
+    .card-content {
+      padding: 12px;
+      white-space: pre-wrap;
+    }
+    .card-action {
+      a {
+        color: #E062FF !important;
+      }
+    }
+  }
+}

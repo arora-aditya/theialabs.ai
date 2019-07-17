@@ -20,7 +20,7 @@ export default class Footer extends React.Component {
               <ul className='links'>
                 <li><Link to="/demo"><p>Demo</p></Link></li>
                 <li><Link to="/blog"><p>Blog</p></Link></li>
-                <li><Link to="/solution"><p>Solution</p></Link></li>
+                <li><Link to="/solutions"><p>Solutions</p></Link></li>
                 <li><Link to="/aboutus"><p>About Us</p></Link></li>
                 <li>
                   <a rel="noopener noreferrer" href="https://www.linkedin.com/company/theialabs/" target="_blank">
