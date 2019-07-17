@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7cdfa2425d709a8d4ac8982fd0731408",
+    "revision": "24879c6ac1ce78ea0e055fe611a9906e",
     "url": "/theialabs.ai/index.html"
   },
   {
-    "revision": "1a90b0b31355b82dbd98",
-    "url": "/theialabs.ai/static/css/main.af5b3078.chunk.css"
+    "revision": "9464ca4ccdb9c23b3c6f",
+    "url": "/theialabs.ai/static/css/main.dc20e316.chunk.css"
   },
   {
-    "revision": "8e20f654cf892fab5d7f",
-    "url": "/theialabs.ai/static/js/2.bf90d6bb.chunk.js"
+    "revision": "2f94db516d8c949222fe",
+    "url": "/theialabs.ai/static/js/2.92e82dff.chunk.js"
   },
   {
-    "revision": "1a90b0b31355b82dbd98",
-    "url": "/theialabs.ai/static/js/main.a4cc5923.chunk.js"
+    "revision": "9464ca4ccdb9c23b3c6f",
+    "url": "/theialabs.ai/static/js/main.1ed5da70.chunk.js"
   },
   {
     "revision": "f4f3018f6319c493f799",
@@ -32,6 +32,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/theialabs.ai/static/media/eye.4a89f9e2.svg"
   },
   {
+    "revision": "5138abb2995d746ba613de2a24c05826",
+    "url": "/theialabs.ai/static/media/fashion_retailers.5138abb2.jpg"
+  },
+  {
     "revision": "903c4586ace87db39be85a34a14cc9c0",
     "url": "/theialabs.ai/static/media/flow.903c4586.svg"
   },
@@ -40,12 +44,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/theialabs.ai/static/media/griffin.73975249.jpg"
   },
   {
+    "revision": "243adafa57fc9b5a7302748a72612993",
+    "url": "/theialabs.ai/static/media/grocers.243adafa.jpg"
+  },
+  {
     "revision": "483715e75f7033b502634149fd2674bd",
     "url": "/theialabs.ai/static/media/heatmap.483715e7.svg"
   },
   {
     "revision": "7ee831ef99d74cf653926a11cb721063",
     "url": "/theialabs.ai/static/media/how_it_works_diagram.7ee831ef.png"
+  },
+  {
+    "revision": "dcb54dad964931bbed40013c16dd05d4",
+    "url": "/theialabs.ai/static/media/malls.dcb54dad.jpg"
   },
   {
     "revision": "de8a30510a2c5d207544156653e44d6f",
