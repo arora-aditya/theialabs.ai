@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/theialabs.ai/static/css/main.75c6dab5.chunk.css",
-    "main.js": "/theialabs.ai/static/js/main.1464fd0a.chunk.js",
-    "main.js.map": "/theialabs.ai/static/js/main.1464fd0a.chunk.js.map",
+    "main.js": "/theialabs.ai/static/js/main.71e409e2.chunk.js",
+    "main.js.map": "/theialabs.ai/static/js/main.71e409e2.chunk.js.map",
     "runtime~main.js": "/theialabs.ai/static/js/runtime~main.110054e4.js",
     "runtime~main.js.map": "/theialabs.ai/static/js/runtime~main.110054e4.js.map",
     "static/js/2.ac85b8e3.chunk.js": "/theialabs.ai/static/js/2.ac85b8e3.chunk.js",
@@ -14,7 +14,7 @@
     "static/js/5.df0110a6.chunk.js": "/theialabs.ai/static/js/5.df0110a6.chunk.js",
     "static/js/5.df0110a6.chunk.js.map": "/theialabs.ai/static/js/5.df0110a6.chunk.js.map",
     "index.html": "/theialabs.ai/index.html",
-    "precache-manifest.cdb7743d8d0ea5ef1263fb8db091d056.js": "/theialabs.ai/precache-manifest.cdb7743d8d0ea5ef1263fb8db091d056.js",
+    "precache-manifest.4a77b001fa86dab5eeaa6b7471859214.js": "/theialabs.ai/precache-manifest.4a77b001fa86dab5eeaa6b7471859214.js",
     "service-worker.js": "/theialabs.ai/service-worker.js",
     "static/css/main.75c6dab5.chunk.css.map": "/theialabs.ai/static/css/main.75c6dab5.chunk.css.map",
     "static/media/Communitech.png": "/theialabs.ai/static/media/Communitech.db4e0e61.png",
