@@ -1,23 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "24879c6ac1ce78ea0e055fe611a9906e",
+    "revision": "2375c7309a2e105d2b07519afbf3d8c2",
     "url": "/theialabs.ai/index.html"
   },
   {
-    "revision": "9464ca4ccdb9c23b3c6f",
-    "url": "/theialabs.ai/static/css/main.dc20e316.chunk.css"
+    "revision": "0276cffee8de5808cd83",
+    "url": "/theialabs.ai/static/css/main.75c6dab5.chunk.css"
   },
   {
-    "revision": "2f94db516d8c949222fe",
-    "url": "/theialabs.ai/static/js/2.92e82dff.chunk.js"
+    "revision": "45f50575e1a2f7cceb68",
+    "url": "/theialabs.ai/static/js/2.ac85b8e3.chunk.js"
   },
   {
-    "revision": "9464ca4ccdb9c23b3c6f",
-    "url": "/theialabs.ai/static/js/main.1ed5da70.chunk.js"
+    "revision": "e6b5bdfe26871e052c95",
+    "url": "/theialabs.ai/static/js/3.dc9fc4be.chunk.js"
   },
   {
-    "revision": "f4f3018f6319c493f799",
-    "url": "/theialabs.ai/static/js/runtime~main.94622495.js"
+    "revision": "d65d6c607cc585973aa1",
+    "url": "/theialabs.ai/static/js/4.112078ed.chunk.js"
+  },
+  {
+    "revision": "78d745851042aba6fbb2",
+    "url": "/theialabs.ai/static/js/5.df0110a6.chunk.js"
+  },
+  {
+    "revision": "0276cffee8de5808cd83",
+    "url": "/theialabs.ai/static/js/main.1464fd0a.chunk.js"
+  },
+  {
+    "revision": "5c2e2d856513da150fb3",
+    "url": "/theialabs.ai/static/js/runtime~main.110054e4.js"
   },
   {
     "revision": "db4e0e61dc874fbf45c1308ce2f0fb9f",
@@ -56,6 +68,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/theialabs.ai/static/media/how_it_works_diagram.7ee831ef.png"
   },
   {
+    "revision": "4b475fb3f54b3e35daa04295ec48df4c",
+    "url": "/theialabs.ai/static/media/linkedin.4b475fb3.svg"
+  },
+  {
     "revision": "dcb54dad964931bbed40013c16dd05d4",
     "url": "/theialabs.ai/static/media/malls.dcb54dad.jpg"
   },
@@ -64,7 +80,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/theialabs.ai/static/media/ruslan.de8a3051.png"
   },
   {
+    "revision": "9711230d453c2cc7a6a2cb4a5227b164",
+    "url": "/theialabs.ai/static/media/slack.9711230d.svg"
+  },
+  {
     "revision": "67e0ad462bc2d8896a7a58e44b1d362a",
     "url": "/theialabs.ai/static/media/steps.67e0ad46.svg"
+  },
+  {
+    "revision": "c9f1200836515fd4bacd29160be78732",
+    "url": "/theialabs.ai/static/media/twitter.c9f12008.svg"
   }
 ]);
