@@ -1,25 +1,26 @@
-.box {
-  font-family: ff-real-headline-pro-2, sans-serif;
-  figure {
-    margin: 1em 0;
-    img {
-      background-color: transparent;
-      max-width: 100%;
-    }
+.blog-card {
+  text-align: left;
+  display: block;
+  margin: 4em 0;
+  text-decoration: none;
+  .caption-heading{
+    font-size: 48px;
+    font-weight: bold;
+    color: rgba(0,0,0,.84);
+    text-rendering: optimizeLegibility;
+    letter-spacing: -.03px;
+    margin: 0px;
+    font-family: -apple-system,BlinkMacSystemFont,Avenir,Avenir Next,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif !important;
   }
-  .caption {
-    .caption-heading {
-      color: #494F55;
-      font-weight: 700;
-      font-size: 2vh;
-      margin-bottom: 1%;
-      text-transform: capitalize;
-    }
-    .caption-text {
-      font-weight: 300;
-      font-size: 2vh;
-      max-width: 100%;
-      margin: auto;
-    }
+  p {
+    font-size: 21px;
+    letter-spacing: -.03px;
+    line-height: 1.58;
+    color: rgba(0,0,0,.84);
+    text-rendering: optimizeLegibility;
+    font-weight: 300;
+    margin-top: 1rem;
+    margin-bottom: 1em;
+    font-family: -apple-system,BlinkMacSystemFont,Avenir,Avenir Next,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif !important;
   }
 }

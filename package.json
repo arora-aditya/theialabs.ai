@@ -6,6 +6,7 @@
   "dependencies": {
     "flatten": "^1.0.2",
     "gh-pages": "^2.0.1",
+    "mdx.macro": "^0.2.8",
     "node-sass": "^4.12.0",
     "node-sass-chokidar": "^1.3.5",
     "react": "^16.8.6",

@@ -28,7 +28,7 @@ $left-margin: 10%;
     color: #252525;
     font-weight: 300;
     font-size: 6vmin;
-    padding-top: 10%;
+    padding-top: 5%;
     margin-bottom: 2vh;
   }
   .features {
@@ -39,6 +39,11 @@ $left-margin: 10%;
     }
     .features-r2 {
       background-color: rgba(220,220,220, 0.2);
+    }
+    .centre-vertical {
+      @media screen and (min-width: 600px) {
+          padding-top: 50%;
+      }
     }
   }
   .how-it-works {

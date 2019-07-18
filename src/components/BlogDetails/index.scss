@@ -1,0 +1,29 @@
+.blog-details {
+  text-align: left;
+  p {
+    font-size: 21px;
+    letter-spacing: -.03px;
+    line-height: 1.58;
+    color: rgba(0,0,0,.84);
+    text-rendering: optimizeLegibility;
+    font-weight: 300;
+    margin-top: 1rem;
+    margin-bottom: 1em;
+    font-family: -apple-system,BlinkMacSystemFont,Avenir,Avenir Next,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif !important;
+  }
+  .categories-container {
+      display: flex;
+      .categories {
+        font-size: 1rem;
+        display: inline-flex;
+        align-items: center;
+        padding: 0 0.8rem;
+        margin: 0 .2rem;
+        border-radius: 1rem;
+        background-color: #e6e6fa;
+        color: rgba(0,0,0,.84);
+        margin-right: 10px;
+        font-weight: 300;
+      }
+  }
+}

@@ -4,6 +4,9 @@ import './index.scss';
 import { Link } from 'react-router-dom';
 
 const logo = require('../../assets/TheiaLogo.png');
+const linkedin = require('../../assets/icons/linkedin.svg');
+const twitter = require('../../assets/icons/twitter.svg');
+const slack = require('../../assets/icons/slack.svg');
 
 export default class Footer extends React.Component {
   render() {
@@ -23,8 +26,15 @@ export default class Footer extends React.Component {
                 <li><Link to="/solutions"><p>Solutions</p></Link></li>
                 <li><Link to="/aboutus"><p>About Us</p></Link></li>
                 <li>
+
                   <a rel="noopener noreferrer" href="https://www.linkedin.com/company/theialabs/" target="_blank">
-                    <p>Linkedin</p>
+                    <img src={linkedin} alt="Linkedin Logo"/>
+                  </a>
+                  <a rel="noopener noreferrer" href="https://www.twitter.com/company/theialabs/" target="_blank">
+                    <img src={twitter} alt="Twitter Logo"/>
+                  </a>
+                  <a rel="noopener noreferrer" href="theialabs.slack.com" target="_blank">
+                    <img src={slack} alt="Slack Logo"/>
                   </a>
                 </li>
               </ul>

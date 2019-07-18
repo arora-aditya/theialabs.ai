@@ -8,20 +8,23 @@ import Home from './pages/Home'
 import Solutions from './pages/Solutions'
 import AboutUs from './pages/AboutUs'
 import Blog from './pages/Blog'
+import BlogContent from './pages/Blog/BlogContent/'
 import Demo from './pages/Demo'
 
 import './App.scss';
 
 function App() {
   return (
+    // TODO: ADD exact to Route: https://github.com/ReactTraining/react-router/blob/master/packages/react-router/docs/api/Route.md
     <div className="App">
       <Navigation />
       <div className="app-content">
-        <Route exact path="/" component={Home} />
-        <Route exact path="/demo" component={Demo} />
-        <Route exact path="/solutions" component={Solutions} />
-        <Route exact path="/aboutus" component={AboutUs} />
-        <Route exact path="/blog" component={Blog} />
+        <Route path="/" component={Home} />
+        <Route path="/demo" component={Demo} />
+        <Route path="/solutions" component={Solutions} />
+        <Route path="/aboutus" component={AboutUs} />
+        <Route path="/blog" component={Blog} />
+        <Route path="/blog/:id" render={(props) => <BlogContent {...props}/>} />
       </div>
       <Footer />
     </div>

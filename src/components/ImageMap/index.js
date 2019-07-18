@@ -23,7 +23,6 @@ export default class ImageMap extends React.Component {
 		this.setState({ hoveredArea: null, msg: `You leaved ${area.shape} ${area.name} at coords ${JSON.stringify(area.coords)} !` });
 	}
 
-
   getTipPosition(area) {
       return { top: `${area.center[1]}px`, left: `${area.center[0]}px` };
   }
@@ -59,12 +58,12 @@ export default class ImageMap extends React.Component {
     let MAP = {
       name: "my-map",
       areas: [
-        { name: "See how your customers travel through your store and what interests them", shape: "circle", coords: [677,408,this.state.radius],  preFillColor:"red"},
-        { name: "See how your customers travel through your store and what interests them", shape: "circle", coords: [457,503,this.state.radius],  preFillColor:"red"},
-        { name: "Analyze passer-by foot traffic and engagement of display windows", shape: "circle", coords: [176,460,this.state.radius],  preFillColor:"red"},
-        { name: "Understand the demographics that enter your store with out foot traffic counter", shape: "circle", coords: [314,359,this.state.radius],  preFillColor:"red"},
-        { name: "Understand where customers spend most of their time with dwell time estimation and traffic flow breakdown", shape: "circle", coords: [563,238,this.state.radius],  preFillColor:"red"},
-        { name: "Use gaze estimation heatmaps to better price store shelving", shape: "circle", coords: [1136,253,this.state.radius],  preFillColor:"red"},
+        { name: "See how your customers travel through your store and what interests them", shape: "circle", coords: [687,415,this.state.radius],  preFillColor:"rgba(220, 220, 220, 0.1)"},
+        { name: "See how your customers travel through your store and what interests them", shape: "circle", coords: [472,523,this.state.radius],  preFillColor:"rgba(220, 220, 220, 0.1)"},
+        { name: "Analyze passer-by foot traffic and engagement of display windows", shape: "circle", coords: [160,470,this.state.radius],  preFillColor:"rgba(220, 220, 220, 0.1)"},
+        { name: "Understand the demographics that enter your store with out foot traffic counter", shape: "circle", coords: [315,380,this.state.radius],  preFillColor:"rgba(220, 220, 220, 0.1)"},
+        { name: "Understand where customers spend most of their time with dwell time estimation and traffic flow breakdown", shape: "circle", coords: [555,255,this.state.radius],  preFillColor:"rgba(220, 220, 220, 0.1)"},
+        { name: "Use gaze estimation heatmaps to better price store shelving", shape: "circle", coords: [1120,270,this.state.radius],  preFillColor:"rgba(220, 220, 220, 0.1)"},
       ]
     }
     return (

@@ -57,13 +57,13 @@ export default class Home extends Component {
               <Button link='/demo' text='See the Demo' color='white'/>
           </div>
           <div className='features'>
-            <p className="large-heading-text">
+            <p className="large-heading-text"  style={{paddingTop: "10%"}}>
               Theia Analytics' Products
             </p>
-            <div className='features-r1 row'>
+            <div className='features-r1 row centre'>
               <div className='col s12 m3 l3'>
                 <CentralHeading
-                  style={{paddingTop: "50%"}}
+                  className='centre-vertical'
                   heading='Foot Traffic Guru'
                   subheading=""
                 />
@@ -82,7 +82,7 @@ export default class Home extends Component {
               />
               <Circle
                 img={flow}
-                className='col s12 m3 l3 offset-s3'
+                className='col s12 m3 l3'
                 heading='POS Integration'
                 text='Connect Foot Traffic Insights and demographic data to generate granular conversion rates'
               />
@@ -90,7 +90,7 @@ export default class Home extends Component {
             <div className='features-r2 row'>
               <div className='col s12 m3 l3'>
                 <CentralHeading
-                  style={{paddingTop: "50%"}}
+                  className='centre-vertical'
                   heading='Store Event Oracle'
                   subheading=""
                 />
@@ -159,7 +159,6 @@ export default class Home extends Component {
                 a="Request Demo"
                 href="#panel-heading-text"
                 img={fashion_retailers}/>
-              {/* Do not remove the spaces at the end since this is a sneaky way to keep heights equal [unicode invisible spaces]*/}
               <Card
                 className='col s12 m4'
                 title='Grocers'

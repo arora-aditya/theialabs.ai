@@ -7,8 +7,51 @@
     padding-top: 5%;
     margin-bottom: 2vh;
   }
+  .blogs {
+    padding-top: 10vh;
+  }
 
   .info {
     margin-bottom: 10vh;
+  }
+}
+
+.container {
+  text-align: left;
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  h1, h2, h3, h4, h5{
+    font-weight: bold;
+    color: rgba(0,0,0,.84);
+    text-rendering: optimizeLegibility;
+    letter-spacing: -.03px;
+    margin: 0px;
+    font-family: -apple-system,BlinkMacSystemFont,Avenir,Avenir Next,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif !important;
+  }
+  .blog-details-contatiner {
+    padding-top: 10vh;
+  }
+  .blog-container {
+    padding-top: 5vh;
+    text-align: left;
+    p {
+      font-size: 21px;
+      letter-spacing: -.03px;
+      line-height: 1.58;
+      color: rgba(0,0,0,.84);
+      text-rendering: optimizeLegibility;
+      font-weight: 300;
+      margin-top: 1rem;
+      margin-bottom: 1em;
+      font-family: -apple-system,BlinkMacSystemFont,Avenir,Avenir Next,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif !important;
+    }
+
   }
 }
