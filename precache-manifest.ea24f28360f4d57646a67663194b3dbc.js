@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5dff92bcc574ad1e4f9c18c30f38964d",
+    "revision": "7fe79d250ae213fe7c5b1a854e242f72",
     "url": "/theialabs.ai/index.html"
   },
   {
-    "revision": "29ece88d07262050c249",
-    "url": "/theialabs.ai/static/css/main.d48cd335.chunk.css"
+    "revision": "11a393e114ffdc56d0a6",
+    "url": "/theialabs.ai/static/css/main.487ae48b.chunk.css"
   },
   {
     "revision": "63d0a9c32ba3d9d731b0",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/theialabs.ai/static/js/5.bd43868b.chunk.js"
   },
   {
-    "revision": "29ece88d07262050c249",
-    "url": "/theialabs.ai/static/js/main.842c58b8.chunk.js"
+    "revision": "11a393e114ffdc56d0a6",
+    "url": "/theialabs.ai/static/js/main.b7b35aad.chunk.js"
   },
   {
     "revision": "49191d03c7da6910c760",
