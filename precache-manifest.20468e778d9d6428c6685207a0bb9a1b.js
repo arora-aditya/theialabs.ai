@@ -1,43 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a2224e3dd6d9aea04e65ae02951371f9",
+    "revision": "5dff92bcc574ad1e4f9c18c30f38964d",
     "url": "/theialabs.ai/index.html"
   },
   {
-    "revision": "e4a7ab84bb63ba5f7500",
-    "url": "/theialabs.ai/static/css/main.baef3f06.chunk.css"
+    "revision": "29ece88d07262050c249",
+    "url": "/theialabs.ai/static/css/main.d48cd335.chunk.css"
   },
   {
-    "revision": "75bb7d03a47132a2d2ba",
-    "url": "/theialabs.ai/static/js/2.e88399e1.chunk.js"
+    "revision": "63d0a9c32ba3d9d731b0",
+    "url": "/theialabs.ai/static/js/2.58b55f97.chunk.js"
   },
   {
-    "revision": "8ed0ad8b56ea55845370",
-    "url": "/theialabs.ai/static/js/3.f2e672b5.chunk.js"
+    "revision": "58b215fde3dc47219d2f",
+    "url": "/theialabs.ai/static/js/3.74235504.chunk.js"
   },
   {
-    "revision": "d02ef7cfb02df4acf275",
-    "url": "/theialabs.ai/static/js/4.fdafd29d.chunk.js"
+    "revision": "b3cd228a7028146a4a5b",
+    "url": "/theialabs.ai/static/js/4.6b9519c4.chunk.js"
   },
   {
-    "revision": "7632fee2c70679921c95",
-    "url": "/theialabs.ai/static/js/5.b62c593f.chunk.js"
+    "revision": "49051160d2fddb73a0d1",
+    "url": "/theialabs.ai/static/js/5.bd43868b.chunk.js"
   },
   {
-    "revision": "e4a7ab84bb63ba5f7500",
-    "url": "/theialabs.ai/static/js/main.c23ca16e.chunk.js"
+    "revision": "29ece88d07262050c249",
+    "url": "/theialabs.ai/static/js/main.842c58b8.chunk.js"
   },
   {
-    "revision": "6a26f51501c928939966",
-    "url": "/theialabs.ai/static/js/runtime~main.7c0ed13b.js"
+    "revision": "49191d03c7da6910c760",
+    "url": "/theialabs.ai/static/js/runtime~main.0a98537b.js"
   },
   {
     "revision": "db4e0e61dc874fbf45c1308ce2f0fb9f",
     "url": "/theialabs.ai/static/media/Communitech.db4e0e61.png"
-  },
-  {
-    "revision": "3dd179e0a4646a826f124fd87179ab59",
-    "url": "/theialabs.ai/static/media/Icon_OnWhite.3dd179e0.svg"
   },
   {
     "revision": "2df645dde83157d6b25a96d73d83f9bf",
