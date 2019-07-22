@@ -3,6 +3,7 @@
 import React, { Component } from 'react';
 
 import Panel from '../../components/Panel';
+import CentralHeading from '../../components/CentralHeading';
 
 import './Demo.scss';
 
@@ -20,15 +21,19 @@ export default class Demo extends Component {
   render() {
       return (
         <div className='demo container'>
-          <p className='large-heading-text'>
-            Take a look!
-          </p>
+          <h1 className='heading-text'>
+              Take a look at a demo of Theia Analytics technology in action.
+          </h1>
           <div className='youtube'>
             <iframe title='youtube video' src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </div>
-          <Panel
+            <CentralHeading
+                heading="Our software runs on existing security cameras and provides advanced traffic metrics through our beautiful Theia dashboard."
+                subheading=""
+            />
+            <Panel
             img={'https://i.imgur.com/TQgky1n.png'}
-            text='Discover how you can improve you can improve your store today with a free 30 day trial, no additional hardware required.'
+            text='Discover how you can improve your store today with a free 30 day trial, no additional hardware required.'
             button_text='Request Demo'
             handleClick={this.handleClick}
           />

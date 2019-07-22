@@ -27,7 +27,6 @@ export default class Blog extends Component {
             {BlogCards}
           </div>
         </div>
-
       )
   }
 }
