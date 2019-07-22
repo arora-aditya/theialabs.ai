@@ -43,6 +43,10 @@ export default class Home extends Component {
     handleFormSubmit(e);
   }
 
+  scrollToClick(e){
+    document.getElementsByClassName("panel")[0].scrollIntoView();
+  }
+
   render() {
     return (
       <div className='home'>
@@ -53,7 +57,7 @@ export default class Home extends Component {
             any additional hardware
           </h1>
           <div className='top-buttons'>
-              <Button link='/contact' text='Contact Us' color='blue'/>
+              <Button link='#contact' text='Contact Us' color='blue' onClick={this.scrollToClick}/>
               <Button link='/demo' text='See the Demo' color='white'/>
           </div>
           <div className='features'>

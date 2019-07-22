@@ -53,6 +53,10 @@ export default class ImageMap extends React.Component {
     this.setState({width: width, radius: radius})
   }
 
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.resize);
+  }
+
   render() {
     // let URL = "https://c1.staticflickr.com/5/4052/4503898393_303cfbc9fd_b.jpg"
     let MAP = {

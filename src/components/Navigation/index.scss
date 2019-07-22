@@ -1,42 +1,54 @@
 @import '../../variables.scss';
 
-nav {
-  box-sizing: border-box;
-  z-index: 21;
-  width: 100%;
-  display: block;
-  flex: 1;
-  background-color: rgba(255,255,255,1) !important;
+.navbar {
+  nav {
+    box-sizing: border-box;
+    z-index: 21;
+    width: 100%;
+    display: block;
+    flex: 1;
+    background-color: rgba(255,255,255,1) !important;
 
 
-  .nav-wrapper {
-    padding: 0 10vw;
-    .brand-logo {
-      img {
-        height: 54px;
-        padding: 5px;
+    .nav-wrapper {
+      padding: 0 10vw;
+      .brand-logo {
+        img {
+          height: 54px;
+          padding: 5px;
+        }
+      }
+    }
+
+
+    .right {
+      text-align: right;
+      a {
+        color: #5F5D60;
+        font-weight: 400;
+        font-family: $primary-header;
+        font-size: 2vh;
+        &:hover {
+          text-decoration: none
+        }
+        &.active {
+          i {
+            color: $theme;
+          }
+        }
+        i {
+          padding: 1% 3%;
+        }
       }
     }
   }
-
-
-  .right {
-    text-align: right;
-    a {
-      color: #5F5D60;
-      font-weight: 400;
-      font-family: $primary-header;
-      font-size: 2vh;
-      &:hover {
-        text-decoration: none
-      }
-      &.active {
-        i {
-          color: $theme;
-        }
-      }
-      i {
-        padding: 1% 3%;
+  .sidenav {
+    li {
+      margin: 4vh 0vh;
+      a {
+        font-family: ff-real-headline-pro-2, sans-serif;
+        font-size: 3vh;
+        margin: 4vh 0vh;
       }
     }
   }

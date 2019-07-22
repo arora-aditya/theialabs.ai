@@ -12,6 +12,7 @@ $left-margin: 10%;
     font-size: 5vmax;
     text-align: left;
     max-width: 75vw;
+    margin-top: 0px;
     @media screen and (min-width: 992px) {
         max-width: 60vw;
     }
@@ -67,6 +68,7 @@ $left-margin: 10%;
   }
 
   .partners.valign-wrapper {
+    text-align: center;
     margin-top: 5%;
     .row{
       align-items: center;

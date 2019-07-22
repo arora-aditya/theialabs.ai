@@ -26,7 +26,6 @@ export default class BlogContent extends Component {
     }else {
       Content = lazy(() => importMDX('./markdown/404.mdx'));
     }
-    console.log(BlogConstants[key].categories);
     return (
       <div>
         <Suspense fallback={<div>Loading...</div>}>

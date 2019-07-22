@@ -31,10 +31,10 @@ export default class Navigation extends React.Component {
                 <img src={logo_svg} alt="Theia Logo"/>
               </div>
             </NavLink>
-            <a href="#!" data-target="mobile-demo" className="sidenav-trigger brand-logo right">
+            <a href="#!" data-target="mobile-demo" className="sidenav-trigger brand-logo right show-on-small">
               <img src={menu} alt='menu' style={{padding: "10px 0"}}/>
             </a>
-            <ul className="right hide-on-small-only">
+            <ul className="right hide-on-med-and-down">
               <li>
                 <NavLink to="/demo" exact={true}>
                   Demo
@@ -61,22 +61,22 @@ export default class Navigation extends React.Component {
 
         <ul className="sidenav left" id="mobile-demo">
           <li>
-            <NavLink to="/demo" exact={true}>
+            <NavLink class='sidenav-close' to="/demo" exact={true}>
               Demo
             </NavLink>
           </li>
           <li>
-            <NavLink to="/blog" exact={true}>
+            <NavLink class='sidenav-close' to="/blog" exact={true}>
               Blog
             </NavLink>
           </li>
           <li>
-            <NavLink to="/solutions" exact={true}>
+            <NavLink class='sidenav-close' to="/solutions" exact={true}>
               Solutions
             </NavLink>
           </li>
           <li>
-            <NavLink to="/aboutus" exact={true}>
+            <NavLink class='sidenav-close' to="/aboutus" exact={true}>
               About Us
             </NavLink>
           </li>

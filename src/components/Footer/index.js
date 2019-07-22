@@ -15,7 +15,9 @@ export default class Footer extends React.Component {
         <div className='footer-container'>
           <div className="row">
             <div className="footer-logo col l4 s12">
-              <img src={logo} alt="Theia Logo"/>
+              <Link to="/">
+                <img src={logo} alt="Theia Logo"/>
+              </Link>
             </div>
             <div className="footer-text col l6 s6">
             </div>
@@ -33,7 +35,7 @@ export default class Footer extends React.Component {
                   <a rel="noopener noreferrer" href="https://www.twitter.com/company/theialabs/" target="_blank">
                     <img src={twitter} alt="Twitter Logo"/>
                   </a>
-                  <a rel="noopener noreferrer" href="theialabs.slack.com" target="_blank">
+                  <a rel="noopener noreferrer" href="https://theialabs.slack.com" target="_blank">
                     <img src={slack} alt="Slack Logo"/>
                   </a>
                 </li>

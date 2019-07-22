@@ -12,6 +12,7 @@ export default class Panel extends React.Component {
     // This binding is necessary to make `this` work in the callback
     this.handleClickPanel = this.handleClickPanel.bind(this);
   }
+
   handleClickPanel(e){
     this.props.handleClick(e);
     this.setState({submitted: true});
