@@ -10,7 +10,7 @@ export default class Button extends React.Component {
       color = this.props.color
     }
     let className = '';
-    let onClick = function(){console.log('test');};
+    let onClick = function(){console.log('Button Default onClick');};
     if(this.props.className){
       className = this.props.className;
     }

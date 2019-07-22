@@ -1,5 +1,5 @@
 /*global M
-global $*/
+$*/
 import * as React from 'react';
 import './index.scss';
 
@@ -19,7 +19,6 @@ export default class Navigation extends React.Component {
 
   componentDidMount(){
     M.Sidenav.init(document.querySelectorAll('.sidenav'), {edge: 'right'});
-    console.log($(window).width)
   }
 
   render() {
@@ -32,8 +31,8 @@ export default class Navigation extends React.Component {
                 <img src={logo_svg} alt="Theia Logo"/>
               </div>
             </NavLink>
-            <a href="#" data-target="mobile-demo" className="sidenav-trigger brand-logo right">
-              <img src={menu} style={{padding: "10px 0"}}/>
+            <a href="#!" data-target="mobile-demo" className="sidenav-trigger brand-logo right">
+              <img src={menu} alt='menu' style={{padding: "10px 0"}}/>
             </a>
             <ul className="right hide-on-small-only">
               <li>

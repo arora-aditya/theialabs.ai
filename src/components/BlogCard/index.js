@@ -12,13 +12,6 @@ function joinAbsoluteUrlPath(...args: string[]) {
 
 export default class BlogCard extends React.Component {
   render() {
-    const categories = this.props.categories;
-    const categories_labels = categories.map((d) => <span className='categories' key={d}>{d}</span>);
-    let coffee_string = '☕️';
-    if(this.props.time >= 9){
-      coffee_string = coffee_string + coffee_string;
-    }
-
     const href = this.props.href?joinAbsoluteUrlPath('blog/', this.props.href):'#'
     return (
       <Link to={href} className={`blog-card ${this.props.className?this.props.className:''}`}>
