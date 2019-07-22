@@ -1,13 +1,12 @@
 /*global M
-global window
-global document
 global $*/
 import * as React from 'react';
 import './index.scss';
 
 import { Redirect, NavLink } from 'react-router-dom';
 
-const logo = require('../../assets/TheiaLogo/Icon_OnWhite.svg');
+// const icon_svg = require('../../assets/TheiaLogo/Icon_OnWhite.svg');
+const logo_svg = require('../../assets/TheiaLogo/Logo_OnWhite.svg');
 const menu = require('../../assets/menu.svg');
 
 export default class Navigation extends React.Component {
@@ -20,16 +19,17 @@ export default class Navigation extends React.Component {
 
   componentDidMount(){
     M.Sidenav.init(document.querySelectorAll('.sidenav'), {edge: 'right'});
+    console.log($(window).width)
   }
 
   render() {
     return this.state.logout ? <Redirect to="/" /> : (
       <div className="navbar z-depth-0">
         <nav>
-          <div className="nav-wrapper">
+          <div className="nav-wrapper z-depth-0">
             <NavLink to="/" className="left">
               <div className="brand-logo left">
-                <img src={logo} alt="Theia Logo"/>
+                <img src={logo_svg} alt="Theia Logo"/>
               </div>
             </NavLink>
             <a href="#" data-target="mobile-demo" className="sidenav-trigger brand-logo right">
