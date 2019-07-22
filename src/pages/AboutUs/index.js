@@ -29,7 +29,7 @@ export default class AboutUs extends Component {
               text='Ex. Shopify Plus, KPMG'
             />
           </div>
-          <div class='text'>
+          <div className='text'>
             We’re a software technology company based in Kitchener, founded by a team of entrepreneurs and engineers from Wilfrid Laurier University and University of Waterloo.
             Our mission is to equip retail businesses with the right tools to understand their customer interactions and storefront performance.
           </div>

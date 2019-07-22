@@ -3,7 +3,7 @@ import './index.scss';
 
 import { Link } from 'react-router-dom';
 
-const logo = require('../../assets/TheiaLogo.png');
+const logo = require('../../assets/TheiaLogo/Logo_OnWhite.svg');
 const linkedin = require('../../assets/icons/linkedin.svg');
 const twitter = require('../../assets/icons/twitter.svg');
 const slack = require('../../assets/icons/slack.svg');
