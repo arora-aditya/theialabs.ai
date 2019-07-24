@@ -5,7 +5,7 @@ export default class Card extends React.Component {
   render() {
     return (
       <div className={`card-comp ${this.props.className?this.props.className:''}`}>
-          <div className="card medium">
+          <div className="card large">
             <div className="card-image">
               <img src={this.props.img} alt={"card"}/>
             </div>

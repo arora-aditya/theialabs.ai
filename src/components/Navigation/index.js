@@ -1,5 +1,4 @@
-/*global M
-$*/
+/*global M*/
 import * as React from 'react';
 import './index.scss';
 
@@ -61,22 +60,22 @@ export default class Navigation extends React.Component {
 
         <ul className="sidenav left" id="mobile-demo">
           <li>
-            <NavLink class='sidenav-close' to="/demo" exact={true}>
+            <NavLink className='sidenav-close' to="/demo" exact={true}>
               Demo
             </NavLink>
           </li>
           <li>
-            <NavLink class='sidenav-close' to="/blog" exact={true}>
+            <NavLink className='sidenav-close' to="/blog" exact={true}>
               Blog
             </NavLink>
           </li>
           <li>
-            <NavLink class='sidenav-close' to="/solutions" exact={true}>
+            <NavLink className='sidenav-close' to="/solutions" exact={true}>
               Solutions
             </NavLink>
           </li>
           <li>
-            <NavLink class='sidenav-close' to="/aboutus" exact={true}>
+            <NavLink className='sidenav-close' to="/aboutus" exact={true}>
               About Us
             </NavLink>
           </li>

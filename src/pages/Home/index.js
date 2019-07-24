@@ -26,7 +26,6 @@ const malls = require('../../assets/IndustrySolutions/malls.jpg');
 
 const box = require('../../assets/Placeholder(2).jpg');
 
-// const pop = require('../../assets/Card(TBC).png')
 const communitech = require('../../assets/Communitech.png');
 const laurier = require('../../assets/Laurier.png');
 const rbc = require('../../assets/RBC.png');
