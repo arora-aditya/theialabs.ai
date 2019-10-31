@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://arora-aditya.com/theialabs.ai",
   "dependencies": {
-    "flatten": "^1.0.2",
+    "flatten": "^1.0.3",
     "gh-pages": "^2.1.0",
     "mdx.macro": "^0.2.8",
     "node-sass": "^4.12.0",
